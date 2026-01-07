@@ -1,0 +1,10 @@
+streamlit
+yfinance
+ta
+scikit-learn
+pandas
+numpy
+transformers
+torch
+googlenews
+newspaper3k
