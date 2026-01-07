@@ -20,3 +20,4 @@ if st.button("Run AI Analysis"):
     st.line_chart(df["Close"])
 
 st.caption("⚠️ Educational purpose only. Not financial advice.")
+
