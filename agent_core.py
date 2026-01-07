@@ -87,3 +87,4 @@ def ai_predict(df, sentiment):
     prob = model.predict_proba(X.iloc[-1:])[0][1]
     trend = "Bullish 📈" if df.iloc[-1]["SMA_20"] > df.iloc[-1]["SMA_50"] else "Bearish 📉"
     return prob, trend
+
